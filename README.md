@@ -1,6 +1,6 @@
 # ChatBot-Assignment
 
-An application which answers all your questions. 
+An application which answers all your questions. Developed using NextJS , Typescript and GPT 3.5 API
 
 ## Steps to run this application on your local
 1. git clone the repository
