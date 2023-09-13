@@ -15,7 +15,7 @@ export default function Home() {
     e.preventDefault();
     const formData = new FormData(e.target as HTMLFormElement);
     const prompt = formData.get("prompt")?.toString().trim();
-
+    const form = e.currentTarget;
     if (prompt) {
       try {
         setQuote("");
@@ -32,6 +32,7 @@ export default function Home() {
         setQuoteLoading(false);
       }
     }
+    form.reset();
   }
 
   return (
