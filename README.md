@@ -1,4 +1,4 @@
-# ChatBot-Assignment
+# ChatBot-LLM
 
 An application which answers all your questions. Developed using NextJS , Typescript and GPT 3.5 API
 
